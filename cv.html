@@ -39,7 +39,7 @@
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
-            <span class="loader-text"><img src="Dick Wray Images/Signature_white.png" alt="Dick Wray Signature" class="signature-image"></span>
+            <span class="loader-text"><img src="Dick%20Wray%20Images/Signature_white.png" alt="Dick Wray Signature" class="signature-image"></span>
         </div>
     </div>
 
@@ -56,7 +56,7 @@
     <header>
         <div class="logo">
             <a href="index.html">
-                <img id="logo-image" src="Dick Wray Images/dickwray-logo_white.png" alt="Dick Wray Logo">
+                <img id="logo-image" src="Dick%20Wray%20Images/dickwray-logo_white.png" alt="Dick Wray Logo">
             </a>
         </div>
         <nav>
@@ -293,7 +293,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="Dick Wray Images/dickwray-logo_white.png" alt="Dick Wray Logo">
+                <img src="Dick%20Wray%20Images/dickwray-logo_white.png" alt="Dick Wray Logo">
             </div>
             <div class="footer-info">
                 <p>&copy; <span id="current-year"></span> Estate of Dick Wray. All rights reserved.</p>
@@ -325,11 +325,11 @@
                 localStorage.setItem('theme', 'light');
                 // Change all logo images to inverted version
                 logoImages.forEach(img => {
-                    img.src = 'Dick Wray Images/dickwray-log_INVERTED.png';
+                    img.src = 'Dick%20Wray%20Images/dickwray-log_INVERTED.png';
                 });
                 // Change signature images to black version
                 signatureImages.forEach(img => {
-                    img.src = 'Dick Wray Images/Signature_black.png';
+                    img.src = 'Dick%20Wray%20Images/Signature_black.png';
                 });
             } else {
                 // Switch to dark theme
@@ -337,11 +337,11 @@
                 localStorage.setItem('theme', 'dark');
                 // Change all logo images to white version
                 logoImages.forEach(img => {
-                    img.src = 'Dick Wray Images/dickwray-logo_white.png';
+                    img.src = 'Dick%20Wray%20Images/dickwray-logo_white.png';
                 });
                 // Change signature images to white version
                 signatureImages.forEach(img => {
-                    img.src = 'Dick Wray Images/Signature_white.png';
+                    img.src = 'Dick%20Wray%20Images/Signature_white.png';
                 });
             }
         }
@@ -355,12 +355,12 @@
                 
                 // Update logo images on initial load if light theme
                 document.querySelectorAll('#logo-image, .footer-logo img').forEach(img => {
-                    img.src = 'Dick Wray Images/dickwray-log_INVERTED.png';
+                    img.src = 'Dick%20Wray%20Images/dickwray-log_INVERTED.png';
                 });
                 
                 // Update signature images on initial load if light theme
                 document.querySelectorAll('.signature-image').forEach(img => {
-                    img.src = 'Dick Wray Images/Signature_black.png';
+                    img.src = 'Dick%20Wray%20Images/Signature_black.png';
                 });
             }
             
